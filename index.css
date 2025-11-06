@@ -77,10 +77,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding-top: 80px; /* espacio para la cabecera fija */
+    padding-top: 100px; /* espacio para la cabecera fija */
     background: linear-gradient(to bottom, #0e0d0c 0%, #e7ebf2 100%);
     scroll-margin-top: 80px; /* ajuste según la altura de su header */
-
 }
 
 .contenido {
