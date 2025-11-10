@@ -136,7 +136,7 @@ body {
     text-align: center;
     margin-top: 60px;
     font-size: 0.9rem;
-    color: #111;
+    color: #ff6600;
     animation: parpadeo 2s infinite;
 }
 
@@ -226,6 +226,11 @@ footer {
     color: #aaa;
     text-align: center;
     padding: 30px;
+}
+
+a{
+    color: #ff6600;
+    text-decoration: none;
 }
 
 .footer-socials a {
