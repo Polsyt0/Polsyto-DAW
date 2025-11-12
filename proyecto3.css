@@ -80,11 +80,49 @@ body {
     gap: 16px;
 }
 
-.video-grid iframe {
+.video-grid img {
     width: 100%;
     aspect-ratio: 16 / 9;
     border: 0;
     border-radius: 10px; /* opcional, esquinas redondeadas */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* opcional, sombra suave */
     aspect-ratio: 16/9;
+}
+
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 30px;
+}
+
+a{
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.footer-socials a {
+    color: #aaa;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+    color: orange;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
 }
